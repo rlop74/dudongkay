@@ -13,7 +13,6 @@ export const DefaultLayout = () => {
     const [isPlaying, setIsPlaying] = useState(false);
     const showMain = useMailLink((state) => state.showMain);
     const setShowMain = useMailLink((state) => state.setShowMain);
-    const showMailLink = useMailLink((state) => state.showMailLink);
     const setShowMailLink = useMailLink((state) => state.setShowMailLink);
 
     return (
