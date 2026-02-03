@@ -1,10 +1,8 @@
-import { AnimatedEnvelope } from "./pages/AnimatedEnvelope";
+import { RouterProvider } from "react-router";
+import { router } from "./routes/router";
 
 function App() {
-
-    return (
-      <AnimatedEnvelope />
-    );
+    return <RouterProvider router={router} />;
 }
 
 export default App;
